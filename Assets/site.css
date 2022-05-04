@@ -78,10 +78,10 @@ ul {
 	list-style-position: inside;
 }
 
-img#logo {
+img.logo {
 	margin: 1%;
-	width: 97%;
-	max-width: 602px;
+	width: 32%;
+	max-width: 800px;
 }
 
 .hosth {
