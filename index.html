@@ -14,13 +14,25 @@
     <link rel="stylesheet" href="./Assets/reset.css" type="text/css" media="screen">
     <link rel="stylesheet" href="./Assets/site.css" type="text/css" media="screen">
     <!-- link rel="stylesheet" href="./Assets/site-largescreen.css" type="text/css" media="screen and (min-width: 40.5em)"-->
+    <style type="text/css">
+      div#imgrp img {
+        margin: 1%;
+        width: 32%;
+        max-width: 800px;
+      }
+      div#imgrp {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+      }
+    </style>
   </head>
   <body> 
     <h1>De Marco per Gorizia</h1>
-    <div>
-      <img class="logo" alt="italexit" src="./Assets/Italexit_con_Paragone.png">
-      <img class="logo" alt="de marco" src="./Assets/logodemarco.png">
-      <img class="logo" alt="scudo" src="./Assets/logoscudo.png">
+    <div id="imgrp">
+      <img alt="italexit" src="./Assets/Italexit_con_Paragone.png">
+      <img alt="de marco" src="./Assets/logodemarco.png">
+      <img alt="scudo" src="./Assets/logoscudo.png">
     </div>
   </body>
 </html>
