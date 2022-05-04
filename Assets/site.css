@@ -81,6 +81,9 @@ ul {
 img.logo {
 	margin: 1%;
 	width: 32%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	max-width: 800px;
 }
 
