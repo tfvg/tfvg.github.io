@@ -2,14 +2,13 @@ body {
 	width: 100%;
 	overflow-x: hidden;
 	background-color: #eee;
-	color: #222;
+	color: #333;
 	margin: 0;
 	padding: 1%;
 	text-align: left;
 	font-size: 15px;
 	font-weight: normal;
 	font-family: "Poppins", sans-serif;
-	letter-spacing: 1px;
 	line-height: 120%;
 }
 
@@ -23,7 +22,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
-	color: rgb(172, 172, 172);
+	color: #33c;
 }
 
 input {
@@ -45,6 +44,7 @@ h4 {
 	font-weight: 700;
 	line-height: 100%;
 	margin-left: 0;
+	color:#33a;
 }
 
 
