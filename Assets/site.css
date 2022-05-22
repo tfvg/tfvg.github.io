@@ -2,7 +2,7 @@ body {
 	width: 100%;
 	overflow-x: hidden;
 	background-color: white;
-	color: #333;
+	color: #33a;
 	margin: 0;
 	padding: 1%;
 	text-align: left;
@@ -125,17 +125,32 @@ video {
 	height: auto;
 }
 
-div.menu {
+div#menu {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+	margin-top: 1em;
+	border-top: 1px solid #33a;
 	font-size: 80%;
 	text-transform: uppercase;
 	font-weight: bold;
+	letter-spacing: 1px;
 }
 
-div.menu a {
+div#menu a {
 	margin-right: 1em;
 	padding: .5em;
 	whitespace: nowrap;
+}
+
+div#menu a:hover {
+	text-decoration: none;
+	color: #44f;
+}
+
+div#CV img {
+	float: left;
+	margin-right: 1em;
+	padding-right: 1em;
+	border-right: 1px solid #33a;
 }
