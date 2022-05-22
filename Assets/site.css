@@ -18,12 +18,12 @@ p {
 
 a {
 	text-decoration: none;
-	color: #cc3;
+	color: #22b;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #33c;
+	color: #cc3;
 }
 
 input {
@@ -152,10 +152,11 @@ div#menu a:hover {
 }
 
 div#CV {
-	margin-bottom:1em;
+	margin-bottom: 1em;
 }
 
 div#CV img {
+	margin-bottom: 1em;
 	float: left;
 	margin-right: 1em;
 	padding-right: 1em;
