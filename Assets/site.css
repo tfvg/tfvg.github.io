@@ -131,6 +131,7 @@ div.menu {
 	justify-content: space-between;
 	font-size: 80%;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 div.menu a {
