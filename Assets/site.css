@@ -18,6 +18,7 @@ p {
 
 a {
 	text-decoration: none;
+	color: #cc3;
 }
 
 a:hover {
@@ -126,6 +127,7 @@ video {
 }
 
 div#menu {
+	clear: both;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -140,12 +142,17 @@ div#menu {
 div#menu a {
 	margin-right: 1em;
 	padding: .5em;
-	whitespace: nowrap;
+	white-space: nowrap;
 }
 
 div#menu a:hover {
 	text-decoration: none;
-	color: #44f;
+	background: #33a;
+	color: #fff;
+}
+
+div#CV {
+	margin-bottom:1em;
 }
 
 div#CV img {
