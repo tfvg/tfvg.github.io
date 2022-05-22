@@ -156,12 +156,7 @@ div#CV {
 }
 
 div#CV img {
-	width: 100%;
-	max-width: 353px;
-	max-height:450px;
 	margin-bottom: 1em;
 	float: left;
 	margin-right: 1em;
-	padding: 1em;
-	border: 1px solid #33a;
 }
