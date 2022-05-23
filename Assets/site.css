@@ -130,7 +130,6 @@ div#menu {
 	clear: both;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
 	margin-top: 1em;
 	border-top: 1px solid #33a;
 	font-size: 80%;
@@ -140,7 +139,9 @@ div#menu {
 }
 
 div#menu a {
-	margin-right: 1em;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	margin-right: 2em;
 	padding: .5em;
 	white-space: nowrap;
 }
