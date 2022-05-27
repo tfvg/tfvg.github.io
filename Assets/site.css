@@ -161,3 +161,9 @@ div#CV img {
 	float: left;
 	margin-right: 1em;
 }
+
+@media print { 
+	/* All your print styles go here */
+	div#menu { display: none !important; }
+	body {font-family: "Poppins", sans-serif; }	
+}
