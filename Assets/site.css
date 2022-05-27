@@ -1,5 +1,5 @@
 body {
-	width: 100%;
+	width: 98%;
 	overflow-x: hidden;
 	background-color: white;
 	color: #33a;
@@ -165,5 +165,6 @@ div#CV img {
 @media print { 
 	/* All your print styles go here */
 	div#menu { display: none !important; }
-	body {font-family: "Poppins", sans-serif; }	
+	body { font-family: "Poppins", sans-serif; color: black; }
+	h1 { color: black; }
 }
